@@ -1,4 +1,4 @@
-package bittech.lib.commands.ln;
+package bittech.lib.commands.ln.invoices;
 
 import bittech.lib.protocol.Request;
 import bittech.lib.utils.Btc;
