@@ -3,17 +3,16 @@ package bittech.lib.commands.ln.channels;
 import bittech.lib.protocol.Request;
 import bittech.lib.utils.Btc;
 
-public class FindRouteRequest implements Request {
+public class FindFastRouteRequest implements Request {
 	
 	public String sourceId;
 	public String destId;
 	public Btc amount;
-	public boolean feeIncluded;
 	public int finalCltvDelta;
 	public Btc fixedFeeLimt;
 	public int percentFeeLimit;
 
-	public FindRouteRequest() {
+	public FindFastRouteRequest() {
 		// TODO Auto-generated constructor stub
 	}
 
