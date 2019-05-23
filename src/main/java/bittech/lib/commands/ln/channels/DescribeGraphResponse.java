@@ -29,7 +29,7 @@ public class DescribeGraphResponse implements Response {
 	}
 
 	public static class ChannelInGraph {
-		public long id;
+		public String id;
 		public String point;
 		public int last_update;
 		public String node1Id;

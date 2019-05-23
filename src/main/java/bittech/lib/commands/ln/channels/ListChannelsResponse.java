@@ -27,7 +27,7 @@ public class ListChannelsResponse implements Response {
 	public static class ActiveChannel extends Channel {
 		public boolean active; // Whether this channel is active or not
 
-		public long chan_id; // The unique channel ID for the channel. The first 3 bytes are the block
+		public String id; // The unique channel ID for the channel. The first 3 bytes are the block
 		// height, the next 3 the index within the block, and the last 2 bytes are the
 		// output index for the channel.
 		public Btc commit_fee; // The amount calculated to be paid in fees for the current set of commitment
