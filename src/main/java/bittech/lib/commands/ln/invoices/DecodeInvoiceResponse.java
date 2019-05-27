@@ -15,7 +15,7 @@ public class DecodeInvoiceResponse implements Response {
 	public String description;
 	public String description_hash;
 	public String fallback_addr;
-	public long cltv_expiry;
+	public int cltv_expiry;
 	public List<RouteHint> route_hints;
 
 }
